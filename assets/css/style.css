@@ -1,0 +1,56 @@
+          body {
+              min-height: 75rem;
+              padding-top: 4.5rem;
+              font-family: 'Raleway', sans-serif;
+          }
+          
+          .logo {
+              max-width: 132px;
+              max-height: 53px;
+          }
+          
+          .container {
+              max-width: 1044px;
+          }
+          
+          .containercont {
+              max-width: 920px;
+          }
+          
+          .conttitl {
+              font-weight: 700;
+              font-size: 17px;
+          }
+          
+          .navlink .contdesc {
+              font-weight: 400;
+              font-size: 16px;
+          }
+          
+          .contdesc2 {
+              font-weight: 400;
+              font-size: 11px;
+          }
+          
+          h4 {
+              color: white;
+              font-weight: 268;
+              font-size: 24;
+          }
+          
+          .navbar {
+              background-color: #28a745;
+          }
+          
+          footer {
+              background-color: white;
+          }
+          
+          .f {
+              background-color: #28a745;
+              text-align: center;
+          }
+          
+          .oferta {
+              forced-color-adjust: #28a745;
+          }

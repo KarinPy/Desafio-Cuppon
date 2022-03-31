@@ -156,13 +156,19 @@
     </article>
 
     <!-- Formulario -->
-    <div class="f container-fluid text-center">
+    <div class="f container-fluid text-center py-4">
 
         <h4>Recibe cupones en tu correo</h4> <br>
 
         <form>
-            <input type="text" value="Nombre" class="form-control rounded" /> <br/>
-            <input type="text" value="Correo electrónico" class="form-control rounded" /> <br/>
+            <!-- <input type="text" value="Nombre" class="form-control rounded" /> <br/> -->
+            <span>
+                <input type="text" name="Nombre" value="Nombre" class="form-control rounded" onFocus="if (this.value=='Nombre') this.value='';"> <br>
+            </span>
+            <span>
+                <input type="text" name="Correo electrónico" value="Correo electrónico" class="form-control rounded" onFocus="if (this.value=='Correo electrónico') this.value='';"> <br>
+            </span>
+
             <button type=" submit" class="rounded">Enviar</button>
         </form>
     </div>
@@ -172,6 +178,8 @@
         <p class="mx-5 ">© 2018 Cuppon Latam .Todos los derechos reservados.</p>
     </footer>
 
+    <!-- javascript-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
